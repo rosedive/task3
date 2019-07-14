@@ -37,7 +37,7 @@ $(document).ready(function () {
             sum_of_subjects += subject
         });
         let average_score_percent = (sum_of_subjects * 100) / total_working_points;
-        if (average_score_percent > 80 && average_score_percent <= 100) {
+        if (average_score_percent >= 80 && average_score_percent <= 100) {
             response = 'A';
             $('#evaluation').text(response)
         } else if (average_score_percent >= 60 && average_score_percent < 80) {
