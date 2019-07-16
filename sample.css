@@ -1,57 +1,57 @@
 body {
-    background-color: #fff;
-    color: #333;
+    background-color: rgb(236, 14, 118);
+    color: rgb(23, 129, 32);
     font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 18px;
 }
 
 p, ol, ul, td {
     font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 18px;
 }
 
 pre {
-    background-color: #eee;
-    padding: 10px;
-    font-size: 11px;
+    background-color:#141012;
+    padding: 13px;
+    font-size: 10px;
 }
 
 a {
-    color: #000;
+    color: #fff;
     &:visited {
-        color: #666;
+        color: #fff;
     }
     &:hover {
         color: #fff;
-        background-color: #000;
+        background-color: #141012;
     }
 }
 
 div {
     &.field, &.actions {
-        margin-bottom: 10px;
+        margin-bottom: 7px;
     }
 }
 
 #notice {
-    color: green;
+    color: blue;
 }
 
 .field_with_errors {
     padding: 2px;
-    background-color: red;
+    background-color: gray;
     display: table;
 }
 
 #error_explanation {
     width: 450px;
-    border: 2px solid red;
+    border: 2px solid grey;
     padding: 7px;
     padding-bottom: 0;
     margin-bottom: 20px;
-    background-color: #f0f0f0;
+    background-color: #0d52a0;
 }
 
 h2 {
@@ -73,29 +73,29 @@ ul li {
 }
 
 .container {
-    width: 750px;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 700px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .btn-success {
     color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+    background-color: #141012;
+    border-color: #f1064d;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+    background-color: #141012;
+    border-color: #f1064d;
 }
 
 .btn-warning {
     color: #fff;
-    background-color: #f0ad4e;
-    border-color: #eea236;
+    background-color: #141012;
+    border-color: #f1064d;
 }
 
 .btn {
@@ -128,9 +128,9 @@ ul li {
 }
 
 .alert-info {
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+    color: #fff;
+    background-color: #141012;
+    border-color: #f1064d;
 }
 
 label {
