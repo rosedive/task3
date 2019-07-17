@@ -68,7 +68,7 @@ $(document).ready(function () {
 		let pass = get_pass_or_failure();
 		// write the processing to output contents such as “Your grade is A when you press the “final judge” button.
 		// By writing the following, if you click the button of "final judge", "Your grade is (the value of" rank "is put here). A process is implemented in which a light blue balloon with the text “(The value of“ judgment ”) is is output.
-		$('#declaration').append(`<label id="alert-indicate" class="alert alert-info">Your grade is ${grade}. ${pass}</label>`);
+		$('#declaration').text(`Your grade is ${grade}. ${pass}`);
 	};
 
 	$('#national_language, #english, #mathematics, #science, #society').change(function () {
